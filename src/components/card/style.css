@@ -1,0 +1,126 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card__poligon {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  background-color: #1698d9;
+  clip-path: polygon(15% 0, 0 11%, 0 100%, 100% 100%, 100% 0);
+  background-color: #1698d9;
+  border-radius: 12px;
+}
+/* .card__triagle {
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  z-index: 1;
+} */
+.card__wrapper {
+  max-width: 320px;
+  width: 100%;
+  height: 480px;
+  background: #f2f2f2;
+  border: 4px solid #1698d9;
+  border-radius: 12px;
+  padding: 21px 53px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 18px;
+  clip-path: polygon(17% 0, 0 12%, 0 100%, 100% 100%, 100% 0);
+  /* background: linear-gradient(-45deg, transparent 15px, #58a 0); */
+}
+.card__title {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+h2 {
+  font-family: Trebuchet;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+}
+.card__with {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.card__dose,
+.card__present {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666;
+}
+.card__cat {
+  position: absolute;
+  bottom: -94px;
+  left: -27px;
+}
+.card__circle {
+  background: #1698d9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card__circle p {
+  font-family: "Trebuchet MS";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.card__circle p:last-child {
+  font-size: 21px;
+}
+.card__footer {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.card__link {
+  font-family: "Trebuchet";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #1698d9;
+  cursor: pointer;
+  background: inherit;
+  border-bottom-width: unset;
+  border-bottom-style: dashed;
+  border-bottom-color: #1698d9;
+}
