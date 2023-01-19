@@ -29,13 +29,16 @@ a:focus,
 a:active {
   outline: none;
 }
-
-body,
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-image: url("./assets/bg.png");
+  font-family: "Exo2.0";
+}
 #root,
 .app {
   width: 100vw;
   height: 100vh;
-}
-body {
-  font-family: "Exo2.0";
 }

@@ -12,14 +12,7 @@
   background-color: #1698d9;
   border-radius: 12px;
 }
-/* .card__triagle {
-  width: 0px;
-  height: 0px;
-  border-top: 50px solid transparent;
-  border-right: 50px solid transparent;
-  position: absolute;
-  z-index: 1;
-} */
+
 .card__wrapper {
   max-width: 320px;
   width: 100%;
@@ -35,7 +28,6 @@
   overflow: hidden;
   margin-bottom: 18px;
   clip-path: polygon(17% 0, 0 12%, 0 100%, 100% 100%, 100% 0);
-  /* background: linear-gradient(-45deg, transparent 15px, #58a 0); */
 }
 .card__title {
   font-family: "Trebuchet";
@@ -123,4 +115,23 @@ h2 {
   border-bottom-width: unset;
   border-bottom-style: dashed;
   border-bottom-color: #1698d9;
+}
+
+@media screen and (max-width: 1280px) {
+  .cards__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0;
+  }
+  .cards__wrapper .card:nth-child(1) {
+    margin: 0 25%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cards__wrapper .card:nth-child(1) {
+    margin: 0 15%;
+  }
+}
+@media screen and (max-width: 480px) {
 }
