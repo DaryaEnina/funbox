@@ -24,12 +24,12 @@
 ### Q4. Расскажите, какие инструменты помогают вам экономить время в процессе написания, проверки и отладки кода.
 
 Разработку я веду в VC Code. Существует большое количество расширений для экономии времени в процессе написания кода.
-⋅⋅* Eslint
-⋅⋅* Prettier
-⋅⋅* Auto Close Tag и Auto Rename Tag
-⋅⋅* Bracket Pair Colorization
-⋅⋅* Live server
-⋅⋅* Live SASS compiler
+* Eslint
+* Prettier
+* Auto Close Tag и Auto Rename Tag
+* Bracket Pair Colorization
+* Live server
+* Live SASS compiler
 Так же огромную роль в написании хорошего кода играет правильно настроенный webpack, с едиными для всех разработчиков проекта правилами.
 Активно использую DevTools для верстки, отладки кода, отслеживания REST API запросов и прочего.
 Расширения браузера так же важны: PerfectPixel, React Developer Tools и Redux DevTools
@@ -63,6 +63,6 @@
 
 Меня зовут Дарья. Мне 32 года. За плечами 10тилетний опыт работы в продажах и управления отделом продаж. Но 2 года назад я навсегда закрыла для себя это направление и ушла в IT. Я изучала Frontend разработку в RSSchool – курс подготовки очень сильных разработчиков на проектах максимально приближенных к реальным. Некоторые этапы даже проходила дважды для закрепления знаний. Сертификаты RSSchool . В данный момент помогаю студентам в качестве ментора.
 Мои работы:
-⋅⋅* [RS-lang](https://github.com/DaryaEnina/RS-Lang) – приложение для изучения английского языка.
-⋅⋅* [Trello](https://github.com/DaryaEnina/project-management-app) – приложение для управления проектами
-⋅⋅* [Museum](https://github.com/DaryaEnina/museum) – адаптивная верстка и интерактивным поведением, лэндинг
+* [RS-lang](https://github.com/DaryaEnina/RS-Lang) – приложение для изучения английского языка.
+* [Trello](https://github.com/DaryaEnina/project-management-app) – приложение для управления проектами
+* [Museum](https://github.com/DaryaEnina/museum) – адаптивная верстка и интерактивным поведением, лэндинг
