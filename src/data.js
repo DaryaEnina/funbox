@@ -8,6 +8,7 @@ export const cards = [
     present: "мышь в подарок",
     weight: "0,5",
     footer: "Печень утки разварная с артишоками.",
+    count: "5",
   },
   {
     id: "1",
@@ -18,6 +19,7 @@ export const cards = [
     present: "2 мыши в подарок",
     weight: "2",
     footer: "Головы щучьи с чесноком да свежайшая сёмгушка.",
+    count: "5",
   },
   {
     id: "2",
@@ -29,5 +31,6 @@ export const cards = [
     add: "заказчик доволен",
     weight: "5",
     footer: "Филе из цыплят с трюфелями в бульоне.",
+    count: "0",
   },
 ];
