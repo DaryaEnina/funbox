@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/DaryaEnina/funbox/static/css/main.4b5a1ce4.css",
+    "main.js": "/DaryaEnina/funbox/static/js/main.a028c33b.js",
+    "static/media/bg.png": "/DaryaEnina/funbox/static/media/bg.6c38e5eb5309c5eb8bcb.png",
+    "static/media/trebuchetms.ttf": "/DaryaEnina/funbox/static/media/trebuchetms.9f1aa0037c24e0f6935e.ttf",
+    "static/media/Exo2.0-Thin.otf": "/DaryaEnina/funbox/static/media/Exo2.0-Thin.51c257bfa8ec3e0cfb4b.otf",
+    "index.html": "/DaryaEnina/funbox/index.html",
+    "main.4b5a1ce4.css.map": "/DaryaEnina/funbox/static/css/main.4b5a1ce4.css.map",
+    "main.a028c33b.js.map": "/DaryaEnina/funbox/static/js/main.a028c33b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b5a1ce4.css",
+    "static/js/main.a028c33b.js"
+  ]
+}
