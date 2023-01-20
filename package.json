@@ -26,7 +26,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://daryaenina.github.io/funbox/",
+  "homepage": "https://daryaenina.github.io/funbox/index.html",
   "browserslist": {
     "production": [
       ">0.2%",
