@@ -9,7 +9,6 @@
   height: 90%;
   background-color: #1698d9;
   clip-path: polygon(15% 0, 0 11%, 0 100%, 100% 100%, 100% 0);
-  background-color: #1698d9;
   border-radius: 12px;
 }
 
@@ -28,6 +27,19 @@
   overflow: hidden;
   margin-bottom: 18px;
   clip-path: polygon(17% 0, 0 12%, 0 100%, 100% 100%, 100% 0);
+  cursor: pointer;
+}
+.card__wrapper:hover {
+  border: 4px solid #2ea8e6;
+}
+.card:hover .card__poligon {
+  background-color: #2ea8e6;
+}
+.card:hover .card__link {
+  color: #2ea8e6;
+}
+.card:hover .card__circle {
+  background: #2ea8e6;
 }
 .card__title {
   font-family: "Trebuchet";
