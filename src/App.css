@@ -28,7 +28,10 @@ h1 {
   margin-bottom: 24px;
 }
 .cards__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 0 41px;
 }
